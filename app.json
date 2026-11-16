@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "InkJourney - Water Ink Travel Memoirs",
+    "slug": "ink-journey-travel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.travel.inkjourney"
+    },
+    "android": {
+      "package": "com.travel.inkjourney",
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_CONTACTS",
+        "android.permission.VIBRATE",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow InkJourney to access your contacts to add travel mates."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow InkJourney to acquire satellite GPS coordinates for your travel memoirs."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow InkJourney to access your photos to attach illustrations.",
+          "cameraPermission": "Allow InkJourney to use the camera to capture travel scenes."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f0a6ffca-a34a-4862-b8a7-7398a1aa8c4d"
+      }
+    },
+    "owner": "fayrayxi"
+  }
+}
