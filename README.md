@@ -1,4 +1,4 @@
-[inkjourney_project_documentation.md](https://github.com/user-attachments/files/35035709/inkjourney_project_documentation.md)
+
 # InkJourney
 
 > **The Ink Journey Begins: Eastern Aesthetics Meets Modern Mobile Exploration**
